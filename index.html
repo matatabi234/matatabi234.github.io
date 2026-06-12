@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/style.css" />
     <link rel="stylesheet" href="assets/portal.css" />
   </head>
+  <script src="assets/portal.js"></script>
   <body>
     <div class="container">
       <!-- プロフィールヒーロー -->
@@ -30,43 +31,7 @@
         <!-- 作品一覧 -->
         <section>
           <h2 class="section-title">🎨 Works</h2>
-          <div class="works-grid">
-            <!-- なろうリーダー -->
-            <a href="naro-reader/" class="work-card">
-              <div class="work-card-header">
-                <span class="work-card-badge">開発中</span>
-                <span class="work-card-icon">📖</span>
-              </div>
-              <div class="work-card-body">
-                <h3 class="work-card-title">なろうリーダー</h3>
-                <p class="work-card-desc">
-                  「小説家になろう」を快適に読めるAndroidアプリ。シンプルなUI・お気に入り機能・しおり機能を搭載予定。
-                </p>
-                <div class="work-card-tags">
-                  <span class="work-card-tag">Android</span>
-                  <span class="work-card-tag">Kotlin</span>
-                  <span class="work-card-tag">Jetpack Compose</span>
-                </div>
-              </div>
-            </a>
-
-            <!-- 次回作プレースホルダー -->
-            <div class="work-card coming-soon">
-              <div class="work-card-header">
-                <span class="work-card-badge soon">Coming Soon</span>
-                <span class="work-card-icon">🎮</span>
-              </div>
-              <div class="work-card-body">
-                <h3 class="work-card-title">Next Project</h3>
-                <p class="work-card-desc">
-                  現在企画中。ゲーム・ユーティリティアプリなど、面白いもの作っていきます。
-                </p>
-                <div class="work-card-tags">
-                  <span class="work-card-tag">企画中</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div class="works-grid" id="works-container"></div>
         </section>
 
         <!-- About -->
@@ -106,28 +71,7 @@
         <!-- Links -->
         <section>
           <h2 class="section-title">🔗 Links</h2>
-          <div class="sns-grid">
-            <a
-              href="https://github.com/matatabi234"
-              target="_blank"
-              rel="noopener"
-              class="sns-link"
-            >
-              <span class="sns-icon">💻</span>
-              <div class="sns-text">
-                <span class="sns-name">GitHub</span>
-                <span class="sns-handle">@matatabi234</span>
-              </div>
-            </a>
-
-            <a href="naro-reader/" class="sns-link">
-              <span class="sns-icon">📖</span>
-              <div class="sns-text">
-                <span class="sns-name">なろうリーダー</span>
-                <span class="sns-handle">開発中のアプリ</span>
-              </div>
-            </a>
-          </div>
+          <div class="sns-grid" id="links-container"></div>
         </section>
       </main>
 

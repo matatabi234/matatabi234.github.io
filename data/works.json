@@ -1,0 +1,22 @@
+[
+  {
+    "title": "なろうリーダー",
+    "icon": "📖",
+    "badge": "開発中",
+    "badgeType": "active",
+    "description": "「小説家になろう」を快適に読めるAndroidアプリ。シンプルなUI・お気に入り機能・しおり機能を搭載予定。",
+    "tags": ["Android", "Kotlin", "Jetpack Compose"],
+    "url": "naro-reader/",
+    "clickable": true
+  },
+  {
+    "title": "Next Project",
+    "icon": "🎮",
+    "badge": "Coming Soon",
+    "badgeType": "soon",
+    "description": "現在企画中。ゲーム・ユーティリティアプリなど、面白いもの作っていきます。",
+    "tags": ["企画中"],
+    "url": "",
+    "clickable": false
+  }
+]

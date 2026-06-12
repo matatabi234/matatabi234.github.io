@@ -1,0 +1,16 @@
+[
+  {
+    "icon": "💻",
+    "name": "GitHub",
+    "handle": "@matatabi234",
+    "url": "https://github.com/matatabi234",
+    "external": true
+  },
+  {
+    "icon": "📖",
+    "name": "なろうリーダー",
+    "handle": "開発中のアプリ",
+    "url": "naro-reader/",
+    "external": false
+  }
+]
