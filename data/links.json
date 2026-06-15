@@ -9,8 +9,15 @@
   {
     "icon": "📖",
     "name": "なろうリーダー",
-    "handle": "開発中のアプリ",
+    "handle": "公開停止",
     "url": "naro-reader/",
     "external": false
+  },
+  {
+    "icon": "🗜",
+    "name": "サクっと圧縮",
+    "handle": "公開準備",
+    "url": "SakuAtsu",
+    "external": true
   }
 ]

@@ -2,11 +2,21 @@
   {
     "title": "なろうリーダー",
     "icon": "📖",
-    "badge": "開発中",
+    "badge": "公開中止",
     "badgeType": "active",
     "description": "「小説家になろう」を快適に読めるAndroidアプリ。シンプルなUI・お気に入り機能・しおり機能を搭載予定。",
     "tags": ["Android", "Kotlin", "Jetpack Compose"],
     "url": "naro-reader/",
+    "clickable": true
+  },
+  {
+    "title": "サクっと圧縮",
+    "icon": "🗜",
+    "badge": "公開準備中",
+    "badgeType": "active",
+    "description": "画像・動画の容量をサクッと軽量化。画質を保ったままスマホのストレージを節約できる、シンプルで使いやすい便利ツール。",
+    "tags": ["Android", "Kotlin", "Jetpack Compose","便利ツール"],
+    "url": "SakuAtsu/",
     "clickable": true
   },
   {
